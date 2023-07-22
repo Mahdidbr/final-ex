@@ -58,7 +58,7 @@ header {
     display: flex;
 }
 
-.section-1 img {
+.section-1-img {
     padding-top: 100px;
     padding-bottom: 100px;
     height: 500px;
@@ -83,7 +83,7 @@ header {
     color: #6c757d;
     font-family: 'Mukta Mahee';
     line-height: 2;
-    /* padding: 10px; */
+    padding: 10px;
 }
 
 .circle {
@@ -95,7 +95,7 @@ header {
 }
 
 .circle i {
-    margin: 7px 12px;
+    margin: 9px 13px;
     color: #65c0ba;
 }
 
@@ -105,4 +105,116 @@ header {
     color: #65c0ba;
     font-size: 18px;
     font-family: 'Mukta Mahee';
+}
+
+.section-2 {
+    height: 280px;
+    background-color: #fafafa;
+    margin-top: 80px;
+    text-align: center;
+}
+
+.section-2-content h2 {
+    font-family: 'Abril Fatface', 'cursive';
+    font-size: 32px;
+    padding-top: 100px;
+}
+
+.section-2-content p {
+    font-family: 'Mukta Mahee';
+    color: #6c757d;
+    padding: 28px 450px;
+    line-height: 1.5;
+}
+
+.items {
+    background-color: #fafafa;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+.items-content {
+    margin-bottom: 40px;
+}
+
+.items-img {
+    width: 100px;
+    height: 100px;
+}
+
+.items h2 {
+    font-family: 'Abril Fatface', 'cursive';
+    padding: 15px 0;
+}
+
+.items p {
+    font-family: 'Mukta Mahee';
+    color: #6c757d;
+    line-height: 1.5;
+    padding: 0 80px;
+}
+
+.section-3 {
+    height: 1000px;
+    background-image: linear-gradient(176deg, #fafafa 70%, #65c0ba calc(70% + 2px));
+    text-align: center;
+}
+
+.section-3 h1 {
+    font-family: 'Abril Fatface';
+    font-size: 48px;
+    padding: 60px 400px;
+
+}   
+
+.section-3 p {
+    color: #6c757d;
+    font-family: 'Mukta Mahee';
+    padding: 0 450px;
+    line-height: 1.8;
+
+}
+
+.section-3-container {
+    display: flex;
+    margin-top: 48px;
+}
+
+.section-3-container img {
+    width: 100%;
+    height: 100%;
+    box-shadow: gray 0px 0px 7px;
+}
+
+.section-3-container .col-3 {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.section-4 {
+    background-color: #65c0ba;
+    height: 900px;
+    text-align: center;
+}
+
+.section-4 h1 {
+    font-family: 'Abril Fatface';
+    font-size: 48px;
+    padding: 32px 0;
+}
+
+.section-4 p {
+    color: #fafafaae;
+    font-family: 'Mukta Mahee';
+    padding: 0 450px;
+    line-height: 1.8;
+}
+
+.section-4-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
 }

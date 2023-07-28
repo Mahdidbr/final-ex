@@ -1,7 +1,10 @@
-/* :root {
-    --primary-color: #65c0ba;
-
-} */
+:root {
+    --primary-color-1: #65c0ba;
+    --primary-color-2: #6c757d;
+    --primary-color-3: #fafafa;
+    --primary-fontfamily-1:'Mukta Mahee';
+    --primary-fontfamily-2:'Abril Fatface', 'cursive';
+}
 
 .container {
     width: 100%;
@@ -27,29 +30,35 @@ header {
 }
 
 .app-bar-content {
-    color: #6c757d;
-    font-family:'Mukta Mahee';
-    font-size:22px;
+    color: var(--primary-color-2);
+    font-family: var(--primary-fontfamily-1);
+    font-size:28px;
 }
 
 .container-content {
-    color: #6c757d;
-    font-family:'Mukta Mahee';
+    color: var(--primary-color-2);
+    font-family:var(--primary-fontfamily-1);
     padding-top: 80px;
     text-align: center;
 }
 
 .container-content h1 {
-    font-size: 48px;
+    font-size: 74px;
     margin-bottom: 8px;
+}
+
+.container-content p {
+    font-size: 18px;
 }
 
 .container-content button {
     background: none;
-    border: 1px solid #6c757d;
-    font-family: 'Mukta Mahee';
+    border: 1px solid var(--primary-color-2);
+    border-radius: 5%;
+    font-family: var(--primary-fontfamily-1);
+    font-size: 15px;
     margin-top: 32px;
-    color: #6c757d;
+    color: var(--primary-color-2);
     width: 120px;
     height: 32px;
 }
@@ -74,14 +83,14 @@ header {
 }
 
 .section-1-content h2 {
-    font-family: 'Abril Fatface', 'cursive';
+    font-family: var(--primary-fontfamily-2);
     font-size: 28px;
     padding-bottom: 10px;
 }
 
 .section-1-content p {
-    color: #6c757d;
-    font-family: 'Mukta Mahee';
+    color: var(--primary-color-2);
+    font-family: var(--primary-fontfamily-1);
     line-height: 2;
     padding: 10px;
 }
@@ -89,46 +98,46 @@ header {
 .circle {
     width: 35px;
     height: 35px;
-    border: 1px solid #6c757d;
+    border: 1px solid var(--primary-color-2);
     border-radius: 50%;
     text-align: center;
 }
 
 .circle i {
     margin: 9px 13px;
-    color: #65c0ba;
+    color: var(--primary-color-1);
 }
 
 .button-content {
     margin-left: 24px;
     margin-top: 8px;
-    color: #65c0ba;
+    color: var(--primary-color-1);
     font-size: 18px;
-    font-family: 'Mukta Mahee';
+    font-family: var(--primary-fontfamily-1);
 }
 
 .section-2 {
-    height: 280px;
-    background-color: #fafafa;
+    height: 800px;
+    background-color: var(--primary-color-3);
     margin-top: 80px;
     text-align: center;
 }
 
 .section-2-content h2 {
-    font-family: 'Abril Fatface', 'cursive';
+    font-family: var(--primary-fontfamily-2);
     font-size: 32px;
     padding-top: 100px;
 }
 
 .section-2-content p {
-    font-family: 'Mukta Mahee';
-    color: #6c757d;
+    font-family: var(--primary-fontfamily-1);
+    color: var(--primary-color-2);
     padding: 28px 450px;
     line-height: 1.5;
 }
 
-.items {
-    background-color: #fafafa;
+.section-2-items {
+    background-color: var(--primary-color-3);
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
@@ -139,39 +148,39 @@ header {
     margin-bottom: 40px;
 }
 
-.items-img {
+.section-2-items img {
     width: 100px;
     height: 100px;
 }
 
-.items h2 {
-    font-family: 'Abril Fatface', 'cursive';
+.section-2-items h2 {
+    font-family: var(--primary-fontfamily-2);
     padding: 15px 0;
 }
 
-.items p {
-    font-family: 'Mukta Mahee';
-    color: #6c757d;
+.section-2-items p {
+    font-family: var(--primary-fontfamily-1);
+    color: var(--primary-color-2);
     line-height: 1.5;
     padding: 0 80px;
 }
 
 .section-3 {
     height: 1000px;
-    background-image: linear-gradient(176deg, #fafafa 70%, #65c0ba calc(70% + 2px));
+    background-image: linear-gradient(176deg, var(--primary-color-3) 70%, var(--primary-color-1) calc(70% + 2px));
     text-align: center;
 }
 
 .section-3 h1 {
-    font-family: 'Abril Fatface';
+    font-family: var(--primary-fontfamily-2);
     font-size: 48px;
     padding: 60px 400px;
 
 }   
 
 .section-3 p {
-    color: #6c757d;
-    font-family: 'Mukta Mahee';
+    color: var(--primary-color-2);
+    font-family: var(--primary-fontfamily-1);
     padding: 0 450px;
     line-height: 1.8;
 
@@ -195,20 +204,20 @@ header {
 }
 
 .section-4 {
-    background-color: #65c0ba;
+    background-color: var(--primary-color-1);
     height: 700px;
     text-align: center;
 }
 
 .section-4 h1 {
-    font-family: 'Abril Fatface';
+    font-family: var(--primary-fontfamily-2);
     font-size: 48px;
     padding: 32px 0;
 }
 
 .section-4 p {
     color: #fafafaae;
-    font-family: 'Mukta Mahee';
+    font-family: var(--primary-fontfamily-1);
     padding: 0 450px;
     line-height: 1.8;
 }
@@ -222,7 +231,7 @@ header {
 }
 
 .items-4 {
-    background-color: #fafafa;
+    background-color: var(--primary-color-3);
     margin-top: 24px;
 }
 
@@ -242,7 +251,7 @@ header {
 }
 
 .items-4-title {
-    font-family: 'Abril Fatface';
+    font-family: var(--primary-fontfamily-2);
     font-size: 22px;
     padding-left: 20px;
     padding-top: 10px;
@@ -250,7 +259,7 @@ header {
 }
 
 .items-4-content {
-    font-family: 'Mukta Mahee';
+    font-family: var(--primary-fontfamily-1);
     color: rgb(188, 186, 186);
     padding-left: 20px;
     padding-right: 10px;
@@ -258,13 +267,13 @@ header {
 }
 
 .section-5 {
-    background-color: #fafafa;
+    background-color: var(--primary-color-3);
     border-top: 1px solid #e0e0e0;
-    height: 800px;
+    height: 600px;
 }
 
 .section-5 h1 {
-    font-family: 'Abril Fatface';
+    font-family: var(--primary-fontfamily-2);
     font-size: 48px;
     padding-top: 94px;
     padding-bottom: 48px;
@@ -284,20 +293,152 @@ header {
 .items-5 img{
     width: 50px;
     height: 50px;
-    
     border-radius: 50%;
     padding-top: 20px;
 }
 
 .items-5-content {
-    font-family: 'Mukta Mahee';
+    font-family: var(--primary-fontfamily-1);
     color: gray;
     padding-top: 15px;
     line-height: 1.5;
 }
 
 .section-5-container .quote {
-    font-family: 'Mukta Mahee';
+    font-family: var(--primary-fontfamily-1);
     color: rgb(165, 163, 163);
     padding-top: 25px;
+}
+
+.section-6 {
+    height: 600px;
+    text-align: center;
+}
+
+.section-6 h1 {
+    font-family: var(--primary-fontfamily-2);
+    font-size: 32px;   
+    padding-top: 120px;
+}
+
+.section-6 p {
+    font-family: var(--primary-fontfamily-1);
+    color: var(--primary-color-2);
+    padding: 16px 400px;
+    line-height: 1.9;
+}
+
+.section-6-container {
+    display: flex;
+    justify-content: center;
+}
+
+.items-6 {
+    height: 200px;
+    margin-top: 32px;
+    text-align: left;
+}
+
+.items-6 img {
+    width: 100%;
+    height: 60%;
+}
+
+.items-6-titles {
+    font-family: var(--primary-fontfamily-2);
+    font-size: 18px;
+    width: 100%;
+    height: 20px;
+    padding-top: 10px;
+}
+
+.ranking {
+    width: 100%;
+    height: 30px;
+    display: inline-flex;
+    justify-content: space-between;
+    padding-top: 5px;
+}
+
+.stars {
+    width: 50%;
+    height: 30px;
+}
+
+.rating {
+    font-size: 12px;
+    color: var(--primary-color-1);
+    padding: 0 2px;  
+}
+
+.reviews {
+    font-family: 'Quicksand', sans-serif;
+    color: #bdc2c6;
+}
+
+footer {
+    background-color: #1a1a1a;
+    height: 600px;
+    width: 100%;
+}
+
+.section-7 {
+    display: flex;
+    justify-content: center;
+}
+
+.items-7 {
+    height: 350px;
+    margin-top: 150px;
+}
+
+.items-7 h1 {
+    color: #fafafa;
+    font-family: var(--primary-fontfamily-2);
+    font-size: 20px;
+    padding-bottom: 15px;
+}
+
+.items-7-content {
+    color: #fafafa80;
+    font-family: 'Quicksand', 'sans-serif';
+    padding: 15px 0;
+
+}
+
+.email {
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #fafafa43;
+}
+
+.h-line{
+    border-bottom:1px solid var(--primary-color-2);
+    width: 200px;
+    text-align: center;
+}
+
+.section-8 {
+    background-color: #1a1a1a;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+}
+
+.section-8-container {
+    height: 200px;
+    border-top:1px solid #ffffff36;
+    color: #fafafa80;
+    font-family: 'Quicksand', 'sans-serif';
+    text-align: center;
+}
+
+.section-8-container div {
+    padding-top: 40px;
+}
+
+.section-8-container i {
+    padding: 0 10px;
 }
